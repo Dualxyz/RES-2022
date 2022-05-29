@@ -1,0 +1,1 @@
+$process_id = Get-Content .\pid.txt; taskkill /F /PID $process_id;exit;
