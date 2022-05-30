@@ -1,71 +1,35 @@
 import sqlite3
 from sqlite3 import Error
+from Reader_TCP import *;
+import time;
 
+from matplotlib.pyplot import table
 
-def create_connection(db_file):
-    """ create a database connection to the SQLite database
-        specified by db_file
-    :param db_file: database file
-    :return: Connection object or None
-    """
-    conn = None
-    try:
-        conn = sqlite3.connect(db_file)
-    except Error as e:
-        print(e)
+# def connect(database):
+#     try:
+#         conn = sqlite3.connect(database);
+#     except Error as e:
+#         print(e);
+#     return conn;
 
-    return conn
+# def create_table(connection, tuple):
+def check_if_table_exists(connection, table_name):
+    sql = f'''CREATE TABLE IF NOT EXISTS {table_name} (DATA_SET string, CODE string);''';
+    cursor = connection.cursor();
+    cursor.execute(sql);
+    connection.commit();
 
+def write_to_table(connection, table_name, first, second):
+    sql = f'''INSERT INTO {table_name}(DATA_SET, CODE) VALUES(?,?)''';
+    cursor = connection.cursor();
+    cursor.execute(sql, (first, second));
+    connection.commit();
 
-def create_project(conn, project):
-    """
-    Create a new project into the projects table
-    :param conn:
-    :param project:
-    :return: project id
-    """
-    sql = ''' INSERT INTO projects(name,begin_date,end_date)
-              VALUES(?,?,?) '''
-    cur = conn.cursor()
-    cur.execute(sql, project)
-    conn.commit()
-    return cur.lastrowid
-
-
-def create_task(conn, task):
-    """
-    Create a new task
-    :param conn:
-    :param task:
-    :return:
-    """
-
-    sql = ''' INSERT INTO tasks(name,priority,status_id,project_id,begin_date,end_date)
-              VALUES(?,?,?,?,?,?) '''
-    cur = conn.cursor()
-    cur.execute(sql, task)
-    conn.commit()
-    return cur.lastrowid
-
-
-def main():
-    database = r"D:\\User\\Desktop\\RES 2022\\Hai\\test.db"
-
-    # create a database connection
-    conn = create_connection(database)
-    with conn:
-        # create a new project
-        project = ('Cool App with SQLite & Python', '2015-01-01', '2015-01-30');
-        project_id = create_project(conn, project)
-
-        # tasks
-        task_1 = ('Analyze the requirements of the app', 1, 1, project_id, '2015-01-01', '2015-01-02')
-        task_2 = ('Confirm with user about the top requirements', 1, 1, project_id, '2015-01-03', '2015-01-05')
-
-        # create tasks
-        create_task(conn, task_1)
-        create_task(conn, task_2)
-
-
-if __name__ == '__main__':
-    main()
+if __name__ == "__main__":
+    database = r"D:\\User\\Desktop\\RES 2022\\Hai\\MOJ_RES_PROJEKAT\\test1.db";
+    connect = connect(database);
+    table_name = "test1"
+    check_if_table_exists(connect, table_name);
+    write_to_table(connect, table_name, "DATA_SET 1", "CODE_ANALOG");
+    write_to_table(connect, table_name, "DATA_SET 2", "CODE_CUSTOM");
+    write_to_table(connect, table_name, "DATA_SET 3", "CODE_SINGLENODE");
