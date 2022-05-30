@@ -1,16 +1,15 @@
 import sqlite3
 from sqlite3 import Error
-from Reader_TCP import *;
 import time;
 
 from matplotlib.pyplot import table
 
-# def connect(database):
-#     try:
-#         conn = sqlite3.connect(database);
-#     except Error as e:
-#         print(e);
-#     return conn;
+def connect(database):
+    try:
+        conn = sqlite3.connect(database);
+    except Error as e:
+        print(e);
+    return conn;
 
 # def create_table(connection, tuple):
 def check_if_table_exists(connection, table_name):
