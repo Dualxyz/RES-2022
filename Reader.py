@@ -1,5 +1,6 @@
 import sqlite3
 from sqlite3 import Error
+from Reader_TCP import *;
 import time;
 
 from matplotlib.pyplot import table
