@@ -1,6 +1,6 @@
 from concurrent.futures import thread
-from REPLICATOR_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
-from REPLICATOR_SEND_TO_CLASS import REPLICATOR_SEND_TO;
+from SENDER_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
+from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
 import threading;
 import time;
 import os;
