@@ -31,7 +31,7 @@ def read_from_table(connection, table_name,):
     cursor = connection.cursor();
     cursor.execute("SELECT * FROM test")
     data = cursor.fetchall()
-    packet = "CODE_ANALOG:21"
+    packet = "CODE_ANALOG:22"
     compare_codes(data,packet);
 
 # 1.	CODE_ANALOG
@@ -49,22 +49,20 @@ def compare_codes(data, packet):
         if(packet[0] == "CODE_DIGITAL"):
             print("Code is CODE_DIGITAL")
             break;
-        else:   # Ne valja odavde pa do kraja funkcije, CRINGE
-            if(packet[0] == i[0] and packet[1] == str(i[1])):
-                print("Already Exists...")
-                break;
-            else:
+        else:   
+            if(packet[0] == i[0]):
+                print(f"CODE: {i[0]} with VALUE: {i[1]} Already Exists...")
                 Deadband = 0.02 * float(packet[1])
-                if(float(packet[1]) < float(i[1]) - Deadband  and float(packet[1]) > float(i[1]) + Deadband):
-                    print("Do nothing...")
+                if(float(packet[1]) > float(i[1]) - Deadband and float(packet[1]) < float(i[1]) + Deadband):
+                    print("Drop packet due to deadband diff not being greater than 2%...")
                     break;
-                else:
-                    print("Write to DB...")
-                
+            else:
+                print("Packet doesn't exist. Write it to db...");
 
 
 if __name__ == "__main__":
-    database = r"C:\\Users\\Mateja\\Desktop\\test.db";
+    database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
+    #database = r"C:\\Users\\Mateja\\Desktop\\test.db";
     connect = connect(database);
     table_name = "test"
     check_if_table_exists(connect, table_name);
