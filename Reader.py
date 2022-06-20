@@ -61,12 +61,21 @@ def compare_codes(connection, data, packet):
         print(f"Packet doesn't exist. Write {packet[0]} and {packet[1]} to db...");
         table_name = "test"
         x = datetime.datetime.now();
-        time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second)
+        time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second);
         write_to_table(connection, table_name, packet[0], packet[1], time);
+        #Send to logger
 
 if __name__ == "__main__":
     database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
     #database = r"C:\\Users\\Mateja\\Desktop\\test.db";
+
+    #Listen for messages from Receiver
+    # buffer = []
+    # pravis reader_receive_from_replicator ili kako god
+    # rrf = REPLICATOR_RECEIVE_FROM;
+    # receive_from_thread = threading.Thread(target=rrf, args=("127.0.0.1", 12345, buffer));
+    # receive_from_thread.start()
+
     connect = connect(database);
     table_name = "test"
     check_if_table_exists(connect, table_name);
