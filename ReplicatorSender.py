@@ -4,12 +4,16 @@ from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
 import threading;
 import time;
 import os;
+from SEND_TO_LOG import LOG;
 
 if __name__ == "__main__":
     with open("pid.txt", 'w') as f:
         f.write(str(os.getpid()));
 
+    LOG("INFO:root:[REPLICATOR SENDER] has started.\n");
+
     buffer = [];
+
 
     rrf = REPLICATOR_RECEIVE_FROM;
     rst = REPLICATOR_SEND_TO;

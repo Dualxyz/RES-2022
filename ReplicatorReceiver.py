@@ -1,9 +1,11 @@
-from ast import Del
 import threading
 from RECEIVER_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
 from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
 import threading;
 from DeltaCD import DeltaCD;
+from SEND_TO_LOG import LOG;
+
+LOG("INFO:root:[REPLICATOR RECEIVER] has started.\n");
 
 buffer=[];
 rrf = threading.Thread(target=REPLICATOR_RECEIVE_FROM, args=("127.0.0.1", 12346, buffer));
@@ -25,12 +27,16 @@ while(True):
 
             if(code == "CODE_ANALOG" or code == "CODE_DIGITAL"):
                 print(f"DATASET1. CODE: {code}, VALUE: {value}");
+                LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_1.\n");
             elif (code == "CODE_CUSTOM" or code == "CODE_LIMITSET"):
                 print(f"DATASET2. CODE: {code}, VALUE: {value}");
             elif (code == "CODE_SINGLENODE" or code == "CODE_MULTIPLENODE"):
+                LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_2.\n");
                 print(f"DATASET3. CODE: {code}, VALUE: {value}");
+                LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_3.\n");
             elif (code == "CODE_CONSUMER" or code == "CODE_SOURCE"):
                 print(f"DATASET4. CODE: {code}, VALUE: {value}");
+                LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_4.\n");
             buffer.pop(counter);
             #print(str(buffer));
     else:
