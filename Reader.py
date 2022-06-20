@@ -1,9 +1,9 @@
 import sqlite3
+import datetime;
 from sqlite3 import Cursor, Error
 #from Reader_TCP import *;
 import time;
 
-#from matplotlib.pyplot import table
 
 def connect(database):
     try:
@@ -12,53 +12,57 @@ def connect(database):
         print(e);
     return conn;
 
-# def create_table(connection, tuple):
+
 def check_if_table_exists(connection, table_name):
-    sql = f'''CREATE TABLE IF NOT EXISTS {table_name} (CODE string, VALUE string);''';
+    sql = f'''CREATE TABLE IF NOT EXISTS {table_name} (CODE string, VALUE string, DATETIME string);''';
     cursor = connection.cursor();
     cursor.execute(sql);
     connection.commit();
 
-def write_to_table(connection, table_name, first, second):
-    sql = f'''INSERT INTO {table_name}(CODE, VALUE) VALUES(?,?)''';
+def write_to_table(connection, table_name, first, second, third):
+    sql = f'''INSERT INTO {table_name}(CODE, VALUE, DATETIME) VALUES(?,?,?)''';
     cursor = connection.cursor();
-    cursor.execute(sql, (first, second));
+    cursor.execute(sql, (first, second, third));
     connection.commit();
-#Code = analog,custom, etc
-#Value = random number
 
-def read_from_table(connection, table_name,):
+
+def read_from_table(connection, table_name):
     cursor = connection.cursor();
-    cursor.execute("SELECT * FROM test")
-    data = cursor.fetchall()
-    packet = "CODE_ANALOG:22"
-    compare_codes(data,packet);
+    cursor.execute("SELECT * FROM test");
+    data = cursor.fetchall();
+    packet = "CODE_ANALOG:31";
+    compare_codes(connection, data,packet);
 
-# 1.	CODE_ANALOG
-# 2.	CODE_DIGITAL
-# 3.	CODE_CUSTOM
-# 4.	CODE_LIMITSET
-# 5.	CODE_SINGLENOE
-# 6.	CODE_MULTIPLENODE
-# 7.	CODE_CONSUMER
-# 8.	CODE_SOURCE
-
-def compare_codes(data, packet):
+def compare_codes(connection, data, packet):
     packet = packet.split(":");
+    flag = False;
+    if data == []:
+        flag = True;
     for i in data:
         if(packet[0] == "CODE_DIGITAL"):
-            print("Code is CODE_DIGITAL")
+            print("Code is CODE_DIGITAL. Write it to db");
+            flag = True;
             break;
         else:   
             if(packet[0] == i[0]):
-                print(f"CODE: {i[0]} with VALUE: {i[1]} Already Exists...")
-                Deadband = 0.02 * float(packet[1])
+                #"CODE: {i[0]} Already Exists checking deadband..."
+                Deadband = 0.02 * float(packet[1]);
                 if(float(packet[1]) > float(i[1]) - Deadband and float(packet[1]) < float(i[1]) + Deadband):
                     print("Drop packet due to deadband diff not being greater than 2%...")
+                    flag = False;
                     break;
+                else:
+                    #Deadband is false. Can be entered to db"
+                    flag = True;
             else:
-                print("Packet doesn't exist. Write it to db...");
-
+                flag = True;
+                
+    if(flag):                
+        print(f"Packet doesn't exist. Write {packet[0]} and {packet[1]} to db...");
+        table_name = "test"
+        x = datetime.datetime.now();
+        time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second)
+        write_to_table(connection, table_name, packet[0], packet[1], time);
 
 if __name__ == "__main__":
     database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
@@ -66,11 +70,5 @@ if __name__ == "__main__":
     connect = connect(database);
     table_name = "test"
     check_if_table_exists(connect, table_name);
-    # write_to_table(connect, table_name, "CODE_ANALOG", "45");
-    # write_to_table(connect, table_name, "CODE_SINGLENODE", "31");
-    # write_to_table(connect, table_name, "CODE_DIGITAL", "12");
-    # write_to_table(connect, table_name, "CODE_ANALOG", "21");
-    # write_to_table(connect, table_name, "CODE_SINGLENODE", "31");
-    # write_to_table(connect, table_name, "CODE_DIGITAL", "67");
     read_from_table(connect, table_name);
     

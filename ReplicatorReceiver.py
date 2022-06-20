@@ -14,6 +14,10 @@ while(True):
             code = split_item[0];
             value = split_item[1];
 
+            #add to DeltaCD
+            #Check if deltaCD add and update == 10
+            #Ako jeste treba da saljem readeru
+
             if(code == "CODE_ANALOG" or code == "CODE_DIGITAL"):
                 print(f"DATASET1. CODE: {code}, VALUE: {value}");
             elif (code == "CODE_CUSTOM" or code == "CODE_LIMITSET"):
