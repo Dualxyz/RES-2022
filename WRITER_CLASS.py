@@ -41,6 +41,6 @@ class Writer:
 
         except Exception as e:
             #print(f'''{e}. Could not make a connection to the server Host: {host}, Port {port}''');
-            logging_error = f"[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.\n";
+            logging_error = f"WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.\n";
             LOG(logging_error);
             #sys.exit(0);
