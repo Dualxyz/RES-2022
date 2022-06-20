@@ -1,11 +1,15 @@
+from ast import Del
 import threading
 from RECEIVER_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
 from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
 import threading;
+from DeltaCD import DeltaCD;
 
 buffer=[];
 rrf = threading.Thread(target=REPLICATOR_RECEIVE_FROM, args=("127.0.0.1", 12346, buffer));
 rrf.start();
+
+deltaCD = DeltaCD();
 
 while(True):
     if (buffer != []):
@@ -13,6 +17,7 @@ while(True):
             split_item = buffer[counter].split(":");
             code = split_item[0];
             value = split_item[1];
+
 
             #add to DeltaCD
             #Check if deltaCD add and update == 10
@@ -27,7 +32,7 @@ while(True):
             elif (code == "CODE_CONSUMER" or code == "CODE_SOURCE"):
                 print(f"DATASET4. CODE: {code}, VALUE: {value}");
             buffer.pop(counter);
-            print(str(buffer));
+            #print(str(buffer));
     else:
         pass;
 

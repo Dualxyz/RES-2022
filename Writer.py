@@ -2,6 +2,9 @@ import sys
 from WRITER_CLASS import Writer;    #Import the Writer class
 import multiprocessing;
 import subprocess;  #used for executing system commands (powershell/cmd)
+from SEND_TO_LOG import LOG;
+import logging;
+from io import StringIO;
 
 """
 Lists the items in dictionary
@@ -19,10 +22,14 @@ def delete_all_writers(process_dictionary):
         except:
             print(f"Process with an id: {process_dictionary[item]} doesn't exist")
 
+
+
 """
 Menu is a function that's going to be handling all the inputs
 """
 def Menu():
+    log_stream = StringIO();
+    logging.basicConfig(stream=log_stream, level=logging.INFO);
     process_dictionary = {};    #Dictionary to store Writer instance + ProcessID
     instance_counter = 0;       #Writer instance
     while(True):
@@ -46,7 +53,9 @@ def Menu():
             p = multiprocessing.Process(target=Writer);
             p.start();
             process_dictionary[instance_counter] = p.pid;
-            print(f"Successfully started a {instance_counter}. writer.")
+            logging.info(f"[WRITER] Successfully started a {instance_counter}. writer.");
+            LOG(log_stream.getvalue().strip("\x00")); #?????????????????????????????????????????????????
+            log_stream.truncate(0);
             instance_counter+=1;
             
         elif option == "2":
@@ -56,6 +65,11 @@ def Menu():
                 try:
                     subprocess.run(f"taskkill /F /PID {process_dictionary[option1]}", stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT);
                     print(f"Writer {option1} successfully closed.");
+
+                    logging.info(f"[WRITER] Writer {option1} successfully closed.");
+                    LOG(log_stream.getvalue().strip("\x00")); #?????????????????????????????????????????????????
+                    log_stream.truncate(0);
+
                     process_dictionary.pop(option1);
                 except:
                     print("Wrong Instance number");
