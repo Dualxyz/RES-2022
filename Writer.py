@@ -3,7 +3,6 @@ from WRITER_CLASS import Writer;    #Import the Writer class
 import multiprocessing;
 import subprocess;  #used for executing system commands (powershell/cmd)
 from SEND_TO_LOG import LOG;
-import logging;
 from io import StringIO;
 
 """
@@ -14,11 +13,11 @@ def list_process(process_dictionary):
         print(f"{item} : {process_dictionary[item]}");
 
 def delete_all_writers(process_dictionary):
-    for item in range(0,len(process_dictionary)):
+    for item in process_dictionary:
         try:
-            print(f"Writer {item} successfully closed.");
-            print(f"What this {process_dictionary[item]}.");
             subprocess.run(f"taskkill /F /PID {process_dictionary[item]}", stderr=subprocess.STDOUT);
+            logging_info = f"WARNING:root:[WRITER] Writer {process_dictionary[item]} successfully closed.\n";
+            LOG(logging_info);
         except:
             print(f"Process with an id: {process_dictionary[item]} doesn't exist")
 
@@ -28,8 +27,6 @@ def delete_all_writers(process_dictionary):
 Menu is a function that's going to be handling all the inputs
 """
 def Menu():
-    log_stream = StringIO();
-    logging.basicConfig(stream=log_stream, level=logging.INFO);
     process_dictionary = {};    #Dictionary to store Writer instance + ProcessID
     instance_counter = 0;       #Writer instance
     while(True):
@@ -53,9 +50,8 @@ def Menu():
             p = multiprocessing.Process(target=Writer);
             p.start();
             process_dictionary[instance_counter] = p.pid;
-            logging.info(f"[WRITER] Successfully started a {instance_counter}. writer.");
-            LOG(log_stream.getvalue().strip("\x00")); #?????????????????????????????????????????????????
-            log_stream.truncate(0);
+            logging_info = f"INFO:root:[WRITER] Successfully started a {instance_counter}. writer.\n";
+            LOG(logging_info);
             instance_counter+=1;
             
         elif option == "2":
@@ -66,9 +62,8 @@ def Menu():
                     subprocess.run(f"taskkill /F /PID {process_dictionary[option1]}", stdout=subprocess.DEVNULL, stderr=subprocess.STDOUT);
                     print(f"Writer {option1} successfully closed.");
 
-                    logging.info(f"[WRITER] Writer {option1} successfully closed.");
-                    LOG(log_stream.getvalue().strip("\x00")); #?????????????????????????????????????????????????
-                    log_stream.truncate(0);
+                    logging_info = f"WARNING:root:[WRITER] Writer {option1} successfully closed.\n";
+                    LOG(logging_info);
 
                     process_dictionary.pop(option1);
                 except:

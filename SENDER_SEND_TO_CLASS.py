@@ -6,17 +6,12 @@ from CODE_LIST import CODE_LIST;    #Imports the list of codes that we have to s
 
 
 from SEND_TO_LOG import LOG;
-import logging;
-from io import StringIO;
 
 class REPLICATOR_SEND_TO:
     """
     Creates a TCP(SOCK_STREAM) socket with IPv4 connection (AF_INET)
     """
     def __init__(self, host, port, buffer):
-        log_stream = StringIO();
-        logging.basicConfig(stream=log_stream, level=logging.INFO);
-        log_stream.truncate(0);
 
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
@@ -25,9 +20,7 @@ class REPLICATOR_SEND_TO:
                 if(buffer != []):
                     message = buffer[0];
                     sock.sendall(str.encode(message));
-                    logging.info(f"[WRITER] Writer sent a something to ReplicatorSender.");
                     logging_info = f"INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.\n"
-                    log_stream.truncate(0);
                     LOG(logging_info);
                     buffer.pop(0);
                 else:
@@ -35,4 +28,6 @@ class REPLICATOR_SEND_TO:
 
         except Exception as e:
             print(f'''{e}. Could not make a connection to the server Host: {host}, Port {port}''');
+            logging_error = "ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.\n";
+            LOG(logging_error);
             sys.exit(0);

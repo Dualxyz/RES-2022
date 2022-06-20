@@ -1,184 +1,211 @@
-[20:10:9] INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
-[20:10:14] INFO:root:[WRITER] Successfully started a 2. writer.
-[20:10:14] INFO:root:[WRITTER] Successfully connected to ReplicatorSender
-[20:10:14] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:33 to ReplicatorSender.
-[20:10:14] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:33.
-[20:10:16] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:26 to ReplicatorSender.
-[20:10:16] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:26.
-[20:10:18] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:31 to ReplicatorSender.
-[20:10:18] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:31.
-[20:10:20] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:59 to ReplicatorSender.
-[20:10:20] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:59.
-[20:10:22] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:34 to ReplicatorSender.
-[20:10:22] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:34.
-[20:10:24] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:81 to ReplicatorSender.
-[20:10:24] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:81.
-[20:10:26] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:77 to ReplicatorSender.
-[20:10:26] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:77.
-[20:10:28] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:26 to ReplicatorSender.
-[20:10:28] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:26.
-[20:10:30] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:64 to ReplicatorSender.
-[20:10:30] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:64.
-[20:10:32] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:32 to ReplicatorSender.
-[20:10:32] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:32.
-[20:10:34] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:97 to ReplicatorSender.
-[20:10:34] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:97.
-[20:10:36] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:46 to ReplicatorSender.
-[20:10:36] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:46.
-[20:10:38] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:44 to ReplicatorSender.
-[20:10:38] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:44.
-[20:10:40] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:14 to ReplicatorSender.
-[20:10:40] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:14.
-[20:10:42] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:11 to ReplicatorSender.
-[20:10:42] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:11.
-[20:10:44] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:40 to ReplicatorSender.
-[20:10:44] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:40.
-[20:10:46] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:26 to ReplicatorSender.
-[20:10:46] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:26.
-[20:10:48] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:30 to ReplicatorSender.
-[20:10:48] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:30.
-[20:10:50] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:8 to ReplicatorSender.
-[20:10:50] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:8.
-[20:10:52] INFO:root:[WRITER] Writer sent a CODE_SOURCE:35 to ReplicatorSender.
-[20:10:52] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:35.
-[20:10:54] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:61 to ReplicatorSender.
-[20:10:54] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:61.
-[20:10:56] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:99 to ReplicatorSender.
-[20:10:56] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:99.
-[20:10:58] INFO:root:[WRITER] Writer 2 successfully closed.
-[20:11:52] INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
-[20:11:53] INFO:root:[WRITER] Successfully started a 3. writer.
-[20:11:53] INFO:root:[WRITTER] Successfully connected to ReplicatorSender
-[20:11:53] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:38 to ReplicatorSender.
-[20:11:53] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:38.
-[20:11:55] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:33 to ReplicatorSender.
-[20:11:55] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:33.
-[20:11:57] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:27 to ReplicatorSender.
-[20:11:57] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:27.
-[20:11:59] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:38 to ReplicatorSender.
-[20:11:59] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:38.
-[20:12:1] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:32 to ReplicatorSender.
-[20:12:1] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:32.
-[20:12:3] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:21 to ReplicatorSender.
-[20:12:3] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:21.
-[20:12:5] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:96 to ReplicatorSender.
-[20:12:5] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:96.
-[20:12:6] INFO:root:[WRITER] Writer 3 successfully closed.
-[20:13:6] INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
-[20:13:8] INFO:root:[WRITER] Successfully started a 4. writer.
-[20:13:8] INFO:root:[WRITTER] Successfully connected to ReplicatorSender
-[20:13:8] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:69 to ReplicatorSender.
-[20:13:8] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:69.
-[20:13:10] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:64 to ReplicatorSender.
-[20:13:10] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:64.
-[20:13:12] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:68 to ReplicatorSender.
-[20:13:12] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:68.
-[20:13:14] INFO:root:[WRITER] Writer sent a CODE_ANALOG:66 to ReplicatorSender.
-[20:13:14] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_ANALOG:66.
-[20:13:16] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:78 to ReplicatorSender.
-[20:13:16] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:78.
-[20:13:18] INFO:root:[WRITER] Writer sent a CODE_SOURCE:73 to ReplicatorSender.
-[20:13:18] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:73.
-[20:13:20] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:28 to ReplicatorSender.
-[20:13:20] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:28.
-[20:13:22] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:59 to ReplicatorSender.
-[20:13:22] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:59.
-[20:13:24] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:10 to ReplicatorSender.
-[20:13:24] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:10.
-[20:13:26] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:20 to ReplicatorSender.
-[20:13:26] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:20.
-[20:13:28] INFO:root:[WRITER] Writer sent a CODE_ANALOG:77 to ReplicatorSender.
-[20:13:28] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_ANALOG:77.
-[20:13:30] INFO:root:[WRITER] Writer sent a CODE_SOURCE:99 to ReplicatorSender.
-[20:13:30] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:99.
-[20:13:32] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:44 to ReplicatorSender.
-[20:13:32] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.
-INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:44.
-[20:13:34] INFO:root:[WRITER] Writer 4 successfully closed.
-[20:15:36] INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
-[20:15:38] INFO:root:[WRITER] Successfully started a 5. writer.
-[20:15:38] INFO:root:[WRITTER] Successfully connected to ReplicatorSender
-[20:15:38] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:40 to ReplicatorSender.
-[20:15:38] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:40.
-[20:15:38] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:40] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:2 to ReplicatorSender.
-[20:15:40] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:2.
-[20:15:40] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:42] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:72 to ReplicatorSender.
-[20:15:42] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:72.
-[20:15:42] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:44] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:95 to ReplicatorSender.
-[20:15:44] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:95.
-[20:15:44] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:46] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:14 to ReplicatorSender.
-[20:15:46] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:14.
-[20:15:46] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:48] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:60 to ReplicatorSender.
-[20:15:48] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:60.
-[20:15:48] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:50] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:55 to ReplicatorSender.
-[20:15:50] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:55.
-[20:15:50] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:52] INFO:root:[WRITER] Writer sent a CODE_SOURCE:92 to ReplicatorSender.
-[20:15:52] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:92.
-[20:15:52] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:54] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:47 to ReplicatorSender.
-[20:15:54] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:47.
-[20:15:54] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:56] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:18 to ReplicatorSender.
-[20:15:56] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:18.
-[20:15:56] INFO:root:[REPLICATOR SENDER] AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA.[20:15:57] INFO:root:[WRITER] Writer 5 successfully closed.
-[20:16:44] INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
-[20:16:48] INFO:root:[WRITER] Successfully started a 6. writer.
-[20:16:48] INFO:root:[WRITTER] Successfully connected to ReplicatorSender
-[20:16:48] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:76 to ReplicatorSender.
-[20:16:48] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:76.
-[20:16:48] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:16:50] INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:83 to ReplicatorSender.
-[20:16:50] INFO:root:[REPLICATOR SENDER] Received a message: CODE_MULTIPLENODE:83.
-[20:16:50] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:16:52] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:65 to ReplicatorSender.
-[20:16:52] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:65.
-[20:16:52] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:16:54] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:11 to ReplicatorSender.
-[20:16:54] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:11.
-[20:16:54] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:16:56] INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:12 to ReplicatorSender.
-[20:16:56] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SINGLENOE:12.
-[20:16:56] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:16:58] INFO:root:[WRITER] Writer sent a CODE_DIGITAL:82 to ReplicatorSender.
-[20:16:58] INFO:root:[REPLICATOR SENDER] Received a message: CODE_DIGITAL:82.
-[20:16:58] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:0] INFO:root:[WRITER] Writer sent a CODE_LIMITSET:28 to ReplicatorSender.
-[20:17:0] INFO:root:[REPLICATOR SENDER] Received a message: CODE_LIMITSET:28.
-[20:17:0] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:2] INFO:root:[WRITER] Writer sent a CODE_SOURCE:66 to ReplicatorSender.
-[20:17:2] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:66.
-[20:17:2] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:4] INFO:root:[WRITER] Writer sent a CODE_ANALOG:57 to ReplicatorSender.
-[20:17:4] INFO:root:[REPLICATOR SENDER] Received a message: CODE_ANALOG:57.
-[20:17:4] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:6] INFO:root:[WRITER] Writer sent a CODE_SOURCE:79 to ReplicatorSender.
-[20:17:6] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:79.
-[20:17:6] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:8] INFO:root:[WRITER] Writer sent a CODE_CUSTOM:2 to ReplicatorSender.
-[20:17:8] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CUSTOM:2.
-[20:17:8] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:10] INFO:root:[WRITER] Writer sent a CODE_SOURCE:86 to ReplicatorSender.
-[20:17:10] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:86.
-[20:17:10] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:12] INFO:root:[WRITER] Writer sent a CODE_SOURCE:96 to ReplicatorSender.
-[20:17:12] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:96.
-[20:17:12] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:14] INFO:root:[WRITER] Writer sent a CODE_SOURCE:42 to ReplicatorSender.
-[20:17:14] INFO:root:[REPLICATOR SENDER] Received a message: CODE_SOURCE:42.
-[20:17:14] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:16] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:22 to ReplicatorSender.
-[20:17:16] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:22.
-[20:17:16] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:18] INFO:root:[WRITER] Writer sent a CODE_CONSUMER:10 to ReplicatorSender.
-[20:17:18] INFO:root:[REPLICATOR SENDER] Received a message: CODE_CONSUMER:10.
-[20:17:18] INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.
-[20:17:20] INFO:root:[WRITER] Writer 6 successfully closed.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:64 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:64.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:64 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:45 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:45.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:45 to Replicator Receiver.
+INFO:root:[WRITER] Successfully started a 1. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:64 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:64.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:64 to Replicator Receiver.
+INFO:root:[WRITER] Successfully started a 2. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:45 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:45.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:45 to Replicator Receiver.
+INFO:root:[WRITER] Successfully started a 3. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:70 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:70.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:70 to Replicator Receiver.
+INFO:root:[WRITER] Successfully started a 4. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:64 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:64.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:64 to Replicator Receiver.
+INFO:root:[WRITER] Successfully started a 5. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:38 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:38.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:38 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:84 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:84.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:84 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:87 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:87.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:87 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:97 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:97.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:97 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:8 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:8.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:8 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:19 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:19.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:19 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:14 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:14.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:14 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:91 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:91.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:91 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:4 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:4.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:4 to Replicator Receiver.
+WARNING:root:[WRITER] Writer 4 successfully closed.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:48 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:48.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:48 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:63 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:63.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:63 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:5 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:5.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:5 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:48 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:48.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:48 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:65 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:65.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:65 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:56 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:56.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:56 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:4 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:4.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:4 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:67 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:67.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:67 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:60 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:60.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:60 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:46 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:46.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:46 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:9 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:9.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:9 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:94 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:94.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:94 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:70 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:70.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:70 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:2 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:2.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:2 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:10 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:10.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:10 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:68 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:68.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:68 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:89 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:89.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:89 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:67 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:67.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:67 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:90 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:90.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:90 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:86 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:86.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:86 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:80 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:80.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:80 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:14 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:14.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:14 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:89 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:89.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:89 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:38 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:38.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:38 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:21 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:21.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:21 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:34 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:34.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:34 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:19 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:19.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:19 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:75 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:75.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:75 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:50 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:50.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:50 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:43 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:43.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:43 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:71 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:71.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:71 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:31 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:31.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:31 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:48 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:48.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:48 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:64 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:64.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:64 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:69 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:69.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:69 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:55 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:55.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:55 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:84 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:84.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:84 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:72 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:72.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:72 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:69 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:69.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:69 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:28 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:28.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:28 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:70 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:70.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:70 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:92 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:92.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:92 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:86 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:86.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:86 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:54 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:54.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:54 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:62 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:62.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:62 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:66 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:66.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:66 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:22 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:22.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:22 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:52 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:52.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:52 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:66 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:66.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:66 to Replicator Receiver.
+WARNING:root:[WRITER] Writer 13864 successfully closed.
+WARNING:root:[WRITER] Writer 25084 successfully closed.
+WARNING:root:[WRITER] Writer 3700 successfully closed.
+WARNING:root:[WRITER] Writer 24136 successfully closed.
+WARNING:root:[WRITER] Writer 19724 successfully closed.
