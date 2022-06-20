@@ -30,15 +30,14 @@ while(True):
                 LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_1.\n");
             elif (code == "CODE_CUSTOM" or code == "CODE_LIMITSET"):
                 print(f"DATASET2. CODE: {code}, VALUE: {value}");
-            elif (code == "CODE_SINGLENODE" or code == "CODE_MULTIPLENODE"):
                 LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_2.\n");
+            elif (code == "CODE_SINGLENODE" or code == "CODE_MULTIPLENODE"):
                 print(f"DATASET3. CODE: {code}, VALUE: {value}");
                 LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_3.\n");
             elif (code == "CODE_CONSUMER" or code == "CODE_SOURCE"):
                 print(f"DATASET4. CODE: {code}, VALUE: {value}");
                 LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {code}:{value} to Reader_4.\n");
             buffer.pop(counter);
-            #print(str(buffer));
     else:
         pass;
 

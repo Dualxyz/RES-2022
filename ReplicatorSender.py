@@ -1,4 +1,5 @@
 from concurrent.futures import thread
+from io import StringIO
 from SENDER_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
 from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
 import threading;
@@ -14,9 +15,9 @@ if __name__ == "__main__":
 
     buffer = [];
 
-
     rrf = REPLICATOR_RECEIVE_FROM;
     rst = REPLICATOR_SEND_TO;
+
 
     receive_from_thread = threading.Thread(target=rrf, args=("127.0.0.1", 12345, buffer));
     send_to_thread = threading.Thread(target=rst, args=("127.0.0.1", 12346, buffer));
