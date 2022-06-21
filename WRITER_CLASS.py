@@ -29,6 +29,7 @@ class Writer:
     """
     def __init__(self):
         host = "127.0.0.1";
+        #port = 12345;
         port = 8881;
 
         try:
@@ -43,4 +44,3 @@ class Writer:
             #print(f'''{e}. Could not make a connection to the server Host: {host}, Port {port}''');
             logging_error = f"WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.\n";
             LOG(logging_error);
-            #sys.exit(0);
