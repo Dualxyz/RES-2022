@@ -65,3 +65,311 @@ INFO:root:[REPLICATOR RECEIVER] sent CODE_MULTIPLENODE:17 to Reader_3.
 WARNING:root:[WRITER] Writer 19296 successfully closed.
 WARNING:root:[WRITER] Writer 22580 successfully closed.
 WARNING:root:[WRITER] Writer 20968 successfully closed.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:17 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:17.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:72 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:72.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:4 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:4.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:88 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:88.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:68 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:68.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:46 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:46.
+WARNING:root:[WRITER] Writer 0 successfully closed.
+INFO:root:[READER_1] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 1. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:51 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:51.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:82 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:82.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:61 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:61.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:99 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:99.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:75 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:75.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:46 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:46.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:87 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:87.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:53 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:53.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:51 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:51.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:87 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:87.
+WARNING:root:[WRITER] Writer 1 successfully closed.
+INFO:root:[READER_1] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 2. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:42 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_LIMITSET:42.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:95 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_SOURCE:95.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:6 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_DIGITAL:6.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:54 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_SOURCE:54.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:94 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_SOURCE:94.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:10 to ReplicatorSender.
+INFO:root:[1] Received a message from: CODE_CUSTOM:10.
+WARNING:root:[WRITER] Writer 2 successfully closed.
+INFO:root:[READER_1] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 3. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:87 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:87.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:52 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:52.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:73 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:73.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:68 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:68.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:74 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:74.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:58 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:58.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:95.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:95 to ReplicatorSender.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:28 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:28.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:81 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:81.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:84 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_CONSUMER:84.
+WARNING:root:[WRITER] Writer 3 successfully closed.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:9 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:9.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:88 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:88.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:98 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:98.
+WARNING:root:[WRITER] Writer 14836 successfully closed.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR RECEIVER] send nekicode:nekivalue to READER_1.
+INFO:root:[READER_1] Received a message from: nekicode:nekivalue.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:60 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:60.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:11 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:11.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:42 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:42.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:96 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:96.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:77 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:77.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:53 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:53.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:84 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:84.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:12 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:12.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:86 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:86.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:9 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:9.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:72 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:72.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:64 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:64.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:54 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:54.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:75 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:75.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:67 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:67.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:57 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:57.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:54 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:54.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:50 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:50.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:19 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:19.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:51 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:51.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:27 to ReplicatorSender.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:27.
+WARNING:root:[WRITER] Writer 26052 successfully closed.

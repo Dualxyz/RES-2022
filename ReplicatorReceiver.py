@@ -1,6 +1,6 @@
 import threading
 from RECEIVER_RECEIVE_FROM_CLASS import REPLICATOR_RECEIVE_FROM;
-from SENDER_SEND_TO_CLASS import REPLICATOR_SEND_TO;
+from RECEIVER_SEND_TO_CLASS import RECEIVER_SEND_TO;
 import threading;
 from DeltaCD import DeltaCD;
 from SEND_TO_LOG import LOG;

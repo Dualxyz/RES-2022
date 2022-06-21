@@ -29,7 +29,7 @@ class Writer:
     """
     def __init__(self):
         host = "127.0.0.1";
-        port = 12345;
+        port = 8881;
 
         try:
             logging_info = "INFO:root:[WRITTER] Successfully connected to ReplicatorSender\n";

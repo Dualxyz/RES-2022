@@ -1,17 +1,16 @@
-import os
 import socket
 import threading
 
 from SEND_TO_LOG import LOG;
 
-
-class REPLICATOR_RECEIVE_FROM:
-    def __init__(self, host, port, buffer):
+class READER_RECEIVE:
+    def __init__(self, host, port, buffer, instance):
         self.host = host;
         self.port = port;
         self.buffer = buffer;
+        self.instance = instance;
 
-        logging_info = (f"INFO:root:[REPLICATOR SENDER] Started a server on {self.host}:{self.port}.\n");
+        logging_info = (f"INFO:root:[READER_{str(self.instance)}] Started a server on {self.host}:{self.port}.\n");
         LOG(logging_info);
 
         print(f"Started a server on {self.host}:{self.port}.\n");
@@ -34,12 +33,9 @@ class REPLICATOR_RECEIVE_FROM:
                 if message == '':
                     client.close();
                 else:
-                    try:
-                        print(f"Client RADDR: {client.raddr}");
-                    except:
-                        pass;
+                    pass;
 
-                    logging_info = (f"INFO:root:[REPLICATOR SENDER] Received a message from: {message}.\n");
+                    logging_info = (f"INFO:root:[READER_{str(self.instance)}] Received a message from: {message}.\n");
                     LOG(logging_info);
                     print(f"Message: {message}");
                     buffer.append(message);
