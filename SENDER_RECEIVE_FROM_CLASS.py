@@ -39,9 +39,9 @@ class REPLICATOR_RECEIVE_FROM:
                     except:
                         pass;
 
+                    print(f"Message: {message}");
                     logging_info = (f"INFO:root:[REPLICATOR SENDER] Received a message from: {message}.\n");
                     LOG(logging_info);
-                    print(f"Message: {message}");
                     buffer.append(message);
             except:
                 break;
