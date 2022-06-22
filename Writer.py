@@ -9,17 +9,25 @@ from io import StringIO;
 Lists the items in dictionary
 """
 def list_process(process_dictionary):
-    for item in process_dictionary:
-        print(f"{item} : {process_dictionary[item]}");
+    try:
+        for item in process_dictionary:
+            print(f"{item} : {process_dictionary[item]}");
+        return 0;  
+    except:
+        return -1;
 
 def delete_all_writers(process_dictionary):
-    for item in process_dictionary:
-        try:
-            subprocess.run(f"taskkill /F /PID {process_dictionary[item]}", stderr=subprocess.STDOUT);
-            logging_info = f"WARNING:root:[WRITER] Writer {process_dictionary[item]} successfully closed.\n";
-            LOG(logging_info);
-        except:
-            print(f"Process with an id: {process_dictionary[item]} doesn't exist")
+    try:
+        for item in process_dictionary:
+            try:
+                subprocess.run(f"taskkill /F /PID {process_dictionary[item]}", stderr=subprocess.STDOUT);
+                logging_info = f"WARNING:root:[WRITER] Writer {process_dictionary[item]} successfully closed.\n";
+                LOG(logging_info);
+            except:
+                print(f"Process with an id: {process_dictionary[item]} doesn't exist");
+        return 0;
+    except:
+        return -1;
 
 
 """
