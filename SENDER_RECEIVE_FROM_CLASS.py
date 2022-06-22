@@ -10,6 +10,7 @@ class REPLICATOR_RECEIVE_FROM:
         self.host = host;
         self.port = port;
         self.buffer = buffer;
+        self.flag;
 
         logging_info = (f"INFO:root:[REPLICATOR SENDER] Started a server on {self.host}:{self.port}.\n");
         LOG(logging_info);

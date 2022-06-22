@@ -3,8 +3,6 @@ import os
 import socket
 import threading
 import time
-
-from numpy import append
 #SOURCE : https://gist.github.com/micktwomey/606178
 
 class REPLICATOR_RECEIVE_FROM:

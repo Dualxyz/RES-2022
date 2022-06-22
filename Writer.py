@@ -5,9 +5,9 @@ import subprocess;  #used for executing system commands (powershell/cmd)
 from SEND_TO_LOG import LOG;
 from io import StringIO;
 
-"""
-Lists the items in dictionary
-"""
+
+
+
 def list_process(process_dictionary):
     try:
         for item in process_dictionary:
@@ -30,9 +30,6 @@ def delete_all_writers(process_dictionary):
         return -1;
 
 
-"""
-Menu is a function that's going to be handling all the inputs
-"""
 def Menu():
     process_dictionary = {};    #Dictionary to store Writer instance + ProcessID
     instance_counter = 0;       #Writer instance
@@ -42,17 +39,7 @@ def Menu():
         print("2. Destroy writer.");
         print("3. Exit ");
         option = input("Your option: ");
-        """
-        1. Initializing a Writer.
-        Creates a process of 'Writer' and adds it to a dictionary {instance_counter : process id}
-        2. Deleting a Writer.
-         - First feature allows us to list all instances of Writers if any are present.
-         - Second it prompts us to enter instance number to kill the Writer if instance number exists.
-            - using subprocess library we can run powershell/cmd commands and we execute task kill with a given process id (taken from a dictionary)
-            - stdout=subprocess.DEVNULL and stderr=subprocess.STDOUT is just that we don't have the echo from powershell.
-            - After that is done we remove it from the dictionary. -> process_dictionary.pop(option1);
-        3. Exit
-        """
+
         if option == "1":
             p = multiprocessing.Process(target=Writer);
             p.start();
@@ -87,8 +74,5 @@ def Menu():
         else:
             print("Wrong option try again.")
 
-"""
-This is how main is initialized in python.
-"""
 if __name__ == "__main__":
     Menu();
