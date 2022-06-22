@@ -23,23 +23,28 @@ class READER_TO_DB:
                 else:
                     pass;
         except:
-            print("idfk.");
+            pass;
 
 
     def connect(self, database):
         try:
             conn = sqlite3.connect(database);
             LOG("INFO:root:[READER] has successfully connected to db.\n");
+            return conn;
         except Error as e:
             print(e);
-        return conn;
+            return -1;
 
 
     def check_if_table_exists(self, connection, table_name):
-        sql = f'''CREATE TABLE IF NOT EXISTS {table_name} (CODE string, VALUE string, DATETIME string);''';
-        cursor = connection.cursor();
-        cursor.execute(sql);
-        connection.commit();
+        try:
+            sql = f'''CREATE TABLE IF NOT EXISTS {table_name} (CODE string, VALUE string, DATETIME string);''';
+            cursor = connection.cursor();
+            cursor.execute(sql);
+            connection.commit();
+            return 0;
+        except:
+            return -1;
 
     def write_to_table(self, connection, table_name, first, second, third):
         sql = f'''INSERT INTO {table_name}(CODE, VALUE, DATETIME) VALUES(?,?,?)''';
