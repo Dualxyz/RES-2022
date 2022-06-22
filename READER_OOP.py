@@ -46,8 +46,6 @@ class READER_TO_DB:
         cursor = connection.cursor();
         cursor.execute(sql, (first, second, third));
         connection.commit();
-        
-
 
     def read_from_table(self, connection, table_name, buffer):
         cursor = connection.cursor();
@@ -89,21 +87,3 @@ class READER_TO_DB:
             time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second);
             self.write_to_table(connection, table_name, packet[0], packet[1], time);
             LOG(f"INFO:root:[READER] wrote {packet[0]}:{packet[1]} at {time} to db.\n");
-
-# if __name__ == "__main__":
-#     # database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
-#     # #database = r"C:\\Users\\Mateja\\Desktop\\test.db";
-
-#     # #Listen for messages from Receiver
-#     # # buffer = []
-#     # # pravis reader_receive_from_replicator ili kako god
-#     # # rrf = REPLICATOR_RECEIVE_FROM;
-#     # # receive_from_thread = threading.Thread(target=rrf, args=("127.0.0.1", 12345, buffer));
-#     # # receive_from_thread.start()
-
-#     # connect = connect(database);
-#     # table_name = "test"
-#     # check_if_table_exists(connect, table_name);
-#     # read_from_table(connect, table_name);
-#     packet = ["CODE_ANALOG:99", "CODE_ANALOG:11", "CODE_ANALOG:11"];
-#     p = READER_TO_DB(packet);

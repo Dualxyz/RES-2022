@@ -5748,3 +5748,303 @@ INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:57.
 INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:57 to Replicator Receiver.
 ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
 ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_DIGITAL:98 to Reader_1.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8882.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+INFO:root:[WRITER] Successfully started a 1. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 2. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 3. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+WARNING:root:[WRITER] Writer 1 successfully closed.
+WARNING:root:[WRITER] Writer 2 successfully closed.
+WARNING:root:[WRITER] Writer 22960 successfully closed.
+WARNING:root:[WRITER] Writer 14808 successfully closed.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 1. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 2. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 3. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Successfully started a 4. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] Writer 3328 successfully closed.
+WARNING:root:[WRITER] Writer 19292 successfully closed.
+WARNING:root:[WRITER] Writer 17688 successfully closed.
+WARNING:root:[WRITER] Writer 19808 successfully closed.
+WARNING:root:[WRITER] Writer 10936 successfully closed.
+INFO:root:[REPLICATOR RECEIVER] has started.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8883.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8884.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:5 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:5.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:5 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SINGLENOE:5 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SINGLENOE:5 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:5.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_SINGLENOE:5 at 21:35:48 to db.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:23 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:23.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:23 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CONSUMER:23 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CONSUMER:23 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_CONSUMER:23.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_CONSUMER:23.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:2 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:2.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:2 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CONSUMER:2 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CONSUMER:2 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_CONSUMER:2.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_CONSUMER:2 at 21:35:52 to db.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:62 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:62.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:62 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SOURCE:62 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SOURCE:62 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:62.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_SOURCE:62.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:13 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:13.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:13 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:13 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:13 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:13.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:13 at 21:35:56 to db.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:65 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:65.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:65 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:65 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:65 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:65.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:65.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:23 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:23.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:23 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CUSTOM:23 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CUSTOM:23 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:23.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_CUSTOM:23 at 21:36:0 to db.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:97 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:97.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:97 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:97 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:97 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:97.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:97.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:73 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:73.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:73 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_MULTIPLENODE:73 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_MULTIPLENODE:73 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:73.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_MULTIPLENODE:73.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:85 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:85.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:85 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CUSTOM:85 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CUSTOM:85 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:85.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_CUSTOM:85.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:15 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:15.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:15 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:15 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:15 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:15.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:15.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:91 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:91.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:91 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SINGLENOE:91 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SINGLENOE:91 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:91.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_SINGLENOE:91.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:25 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:25.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:25 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:25 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:25 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:25.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:25.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:28 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:28.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:28 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SOURCE:28 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SOURCE:28 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:28.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_SOURCE:28 at 21:36:14 to db.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:79 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:79.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:79 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_MULTIPLENODE:79 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_MULTIPLENODE:79 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:79.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_MULTIPLENODE:79.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:33 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:33.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:33 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:33 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:33 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:33.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:33 at 21:36:18 to db.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:71 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:71.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:71 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SOURCE:71 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SOURCE:71 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:71.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_SOURCE:71 at 21:36:20 to db.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:17 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:17.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:17 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:17 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:17 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:17.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_LIMITSET:17 at 21:36:23 to db.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:85 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:85.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:85 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:85 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:85 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:85.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:85.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:40 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:40.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:40 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_MULTIPLENODE:40 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_MULTIPLENODE:40 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:40.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_MULTIPLENODE:40 at 21:36:26 to db.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:31 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:31.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:31 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SINGLENOE:31 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SINGLENOE:31 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_SINGLENOE:31.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_SINGLENOE:31.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:61 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:61.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:61 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:61 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:61 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:61.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:61 at 21:36:30 to db.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:67 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:67.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:67 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:67 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:67 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:67.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:67.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:39 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:39.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:39 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SOURCE:39 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SOURCE:39 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:39.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_SOURCE:39 at 21:36:34 to db.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:20 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:20.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:20 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_SOURCE:20 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_SOURCE:20 to Reader_4.
+INFO:root:[READER_1] Received a message from: CODE_SOURCE:20.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_SOURCE:20 at 21:36:36 to db.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:18 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:18.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:18 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:18 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:18 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:18.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:18 at 21:36:38 to db.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:18 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:18.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:18 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:18 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:18 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:18.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:18 at 21:36:41 to db.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:29 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:29.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:29 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CUSTOM:29 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CUSTOM:29 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:29.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_CUSTOM:29.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:39 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:39.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:39 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:39 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:39 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:39.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:39.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:92 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:92.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:92 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_CUSTOM:92 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_CUSTOM:92 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_CUSTOM:92.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_CUSTOM:92 at 21:36:47 to db.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:75 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:75.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:75 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_LIMITSET:75 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_LIMITSET:75 to Reader_2.
+INFO:root:[READER_1] Received a message from: CODE_LIMITSET:75.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_LIMITSET:75.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:8 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:8.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:8 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_MULTIPLENODE:8 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_MULTIPLENODE:8 to Reader_3.
+INFO:root:[READER_1] Received a message from: CODE_MULTIPLENODE:8.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_MULTIPLENODE:8 at 21:36:51 to db.

@@ -1,5 +1,3 @@
-
-
 from READER_RECEIVE_CLASS import READER_RECEIVE
 from SEND_TO_LOG import LOG;
 from READER_OOP import READER_TO_DB;

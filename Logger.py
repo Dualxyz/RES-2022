@@ -33,11 +33,7 @@ class SERV:
                         pass;
                     print(f"{message}");
                     with open("log.txt", "a") as f:
-                        # x = datetime.datetime.now();
-                        # time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second);
-                        #print((message));
                         f.write(message);
-                        #print(time + str(message));
             except:
                 break;
 

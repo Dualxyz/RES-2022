@@ -22,7 +22,6 @@ def delete_all_writers(process_dictionary):
             print(f"Process with an id: {process_dictionary[item]} doesn't exist")
 
 
-
 """
 Menu is a function that's going to be handling all the inputs
 """
