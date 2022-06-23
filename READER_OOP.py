@@ -14,7 +14,7 @@ class READER_TO_DB:
                 if(buffer !=[]):
                     print(str(buffer));
                     packet = buffer[0];
-                    self.database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
+                    self.database = r"test.db";
                     self.connectvar = self.connect(self.database);
                     self.table_name = "test"
                     self.check_if_table_exists(self.connectvar, self.table_name);
