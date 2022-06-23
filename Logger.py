@@ -11,14 +11,19 @@ class SERV:
         self.port = 9999;
         print(f"Logger on {self.host}:{self.port}.\n");
 
-        server = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
-        server.bind((self.host,self.port));
-        server.listen();
+        try:
+            server = socket.socket(socket.AF_INET, socket.SOCK_STREAM);
+            server.bind((self.host,self.port));
+            server.listen();
 
-        while True:
-            client, address = server.accept();
-            self.handle(client);
-            client.close();
+            while True:
+                client, address = server.accept();
+                self.handle(client);
+                client.close();
+        except:
+            raise TypeError("Host:Port already in use");
+
+        
 
     def handle(self, client):
         while True:

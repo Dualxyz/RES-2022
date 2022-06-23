@@ -11,7 +11,7 @@ if __name__ == "__main__":
     with open("pid.txt", 'w') as f:
         f.write(str(os.getpid()));
 
-    LOG("INFO:root:[REPLICATOR SENDER] has started.\n");
+    LOG("INFO:root:[REPLICATOR SENDER] has started.\n", "127.0.0.1", 9999);
 
     buffer = [];
 

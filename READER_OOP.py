@@ -14,7 +14,7 @@ class READER_TO_DB:
                 if(buffer !=[]):
                     print(str(buffer));
                     packet = buffer[0];
-                    self.database = r"D:\\User\\Desktop\\RES 2022\\RES-2022\\test.db";
+                    self.database = r"test.db";
                     self.connectvar = self.connect(self.database);
                     self.table_name = "test"
                     self.check_if_table_exists(self.connectvar, self.table_name);
@@ -29,7 +29,7 @@ class READER_TO_DB:
     def connect(self, database):
         try:
             conn = sqlite3.connect(database);
-            LOG("INFO:root:[READER] has successfully connected to db.\n");
+            LOG("INFO:root:[READER] has successfully connected to db.\n", "127.0.0.1", 9999);
             return conn;
         except Error as e:
             print(e);
@@ -76,7 +76,7 @@ class READER_TO_DB:
                     Deadband = 0.02 * float(packet[1]);
                     if(float(packet[1]) > float(i[1]) - Deadband and float(packet[1]) < float(i[1]) + Deadband):
                         print("Drop packet due to deadband diff not being greater than 2%...")
-                        LOG(f"WARNING:root:[READER] deadband exception for {packet[0]}:{packet[1]}.\n");
+                        LOG(f"WARNING:root:[READER] deadband exception for {packet[0]}:{packet[1]}.\n", "127.0.0.1", 9999);
                         flag = False;
                         break;
                     else:
@@ -91,4 +91,4 @@ class READER_TO_DB:
             x = datetime.datetime.now();
             time = str(x.hour) + ":" + str(x.minute) + ":" + str(x.second);
             self.write_to_table(connection, table_name, packet[0], packet[1], time);
-            LOG(f"INFO:root:[READER] wrote {packet[0]}:{packet[1]} at {time} to db.\n");
+            LOG(f"INFO:root:[READER] wrote {packet[0]}:{packet[1]} at {time} to db.\n", "127.0.0.1", 9999);

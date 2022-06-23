@@ -21,7 +21,7 @@ class REPLICATOR_SEND_TO:
                     message = buffer[0];
                     sock.sendall(str.encode(message));
                     logging_info = f"INFO:root:[REPLICATOR SENDER] send {message} to Replicator Receiver.\n"
-                    LOG(logging_info);
+                    LOG(logging_info, "127.0.0.1", 9999);
                     buffer.pop(0);
                 else:
                     pass;
@@ -29,5 +29,5 @@ class REPLICATOR_SEND_TO:
         except Exception as e:
             print(f'''{e}. Could not make a connection to the server Host: {host}, Port {port}''');
             logging_error = "ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.\n";
-            LOG(logging_error);
+            LOG(logging_error, "127.0.0.1", 9999);
             sys.exit(0);

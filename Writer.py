@@ -22,7 +22,7 @@ def delete_all_writers(process_dictionary):
             try:
                 subprocess.run(f"taskkill /F /PID {process_dictionary[item]}", stderr=subprocess.STDOUT);
                 logging_info = f"WARNING:root:[WRITER] Writer {process_dictionary[item]} successfully closed.\n";
-                LOG(logging_info);
+                LOG(logging_info, "127.0.0.1", 9999);
             except:
                 print(f"Process with an id: {process_dictionary[item]} doesn't exist");
         return 0;
@@ -45,7 +45,7 @@ def Menu():
             p.start();
             process_dictionary[instance_counter] = p.pid;
             logging_info = f"INFO:root:[WRITER] Successfully started a {instance_counter}. writer.\n";
-            LOG(logging_info);
+            LOG(logging_info, "127.0.0.1", 9999);
             instance_counter+=1;
             
         elif option == "2":
@@ -57,7 +57,7 @@ def Menu():
                     print(f"Writer {option1} successfully closed.");
 
                     logging_info = f"WARNING:root:[WRITER] Writer {option1} successfully closed.\n";
-                    LOG(logging_info);
+                    LOG(logging_info, "127.0.0.1", 9999);
 
                     process_dictionary.pop(option1);
                 except:

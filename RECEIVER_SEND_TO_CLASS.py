@@ -19,13 +19,13 @@ class RECEIVER_SEND_TO:
             sock.connect((host,port));
             sock.sendall(str.encode(message));
             logging_info = f"INFO:root:[REPLICATOR RECEIVER] send {message} to READER_{self.instance}.\n"
-            LOG(logging_info);
+            LOG(logging_info, "127.0.0.1", 9999);
             sock.close();
 
         except Exception as e:
             #print(f'''{e}. Could not make a connection to the server Host: {host}, Port {port}''');
             logging_error = "ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.\n";
-            LOG(logging_error);
+            LOG(logging_error, "127.0.0.1", 9999);
             sys.exit(0);
 
 if __name__ == "__main__":
