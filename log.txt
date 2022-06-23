@@ -6210,3 +6210,472 @@ INFO:root:[READER_1] Received a message from: CODE_CUSTOM:33.
 INFO:root:[READER] has successfully connected to db.
 INFO:root:[READER] wrote CODE_CUSTOM:33 at 0:47:19 to db.
 WARNING:root:[WRITER] Writer 15768 successfully closed.
+INFO:root:[REPLICATOR RECEIVER] has started.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:56 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:56.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:56 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:56 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:56 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:56.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:56.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:7 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:7.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:7 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:88 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:88.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:88 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SINGLENOE:7 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:21 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:21.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:21 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:88 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:4 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:4.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:4 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:21 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:85 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:85.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:85 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:4 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:89 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:89.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:89 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:85 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:87 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:87.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:87 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:89 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:87 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:87 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:87.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:87.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:47 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:47.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:47 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:6 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:6.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:6 to Replicator Receiver.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:47 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:79 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:79.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:79 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:6 to Reader_4.
+WARNING:root:[WRITER] Writer 10824 successfully closed.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:79 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] has started.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:19 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:19.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:19 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:2 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:2.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:2 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:19 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:1 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:1.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:1 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:2 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:1 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:1 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:1.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:1 at 6:20:11 to db.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:53 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:53.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:53 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:53 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:53 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:53.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:53 at 6:20:13 to db.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:33 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:33.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:33 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:21 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:21.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:21 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:33 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:21 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:21 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:21.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:21.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:20 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:20.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:20 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:77 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:77.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:77 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:20 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:57 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:57.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:57 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:77 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:81 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:81.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:81 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:57 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:32 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:32.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:32 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:81 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:61 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:61.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:61 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:32 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:7 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:7.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:7 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:61 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:25 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:25.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:25 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:7 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:37 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:37.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:37 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:25 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:51 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:51.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:51 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:37 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:65 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:65.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:65 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:51 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:44 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:44.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:44 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:65 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:10 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:10.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:10 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SINGLENOE:44 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:29 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:29.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:29 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:10 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:93 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:93.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:93 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SINGLENOE:29 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:33 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:33.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:33 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:93 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:44 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:44.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:44 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:33 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:75 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:75.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:75 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:44 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:51 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:51.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:51 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:75 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:75 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:75.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:75 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:51 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:32 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:32.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:32 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:75 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:83 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:83.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:83 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:32 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:5 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:5.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:5 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:83 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:68 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:68.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:68 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:5 to Reader_2.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:40 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:40.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:40 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:68 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:62 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:62.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:62 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:40 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:10 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:10.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:10 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SINGLENOE:62 to Reader_3.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:78 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:78.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:78 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:10 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:78 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:78 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:78.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_ANALOG:78 at 6:21:13 to db.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:40 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:40.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:40 to Replicator Receiver.
+WARNING:root:[WRITER] Writer 1580 successfully closed.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:40 to Reader_2.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+WARNING:root:[WRITER] Writer 5700 successfully closed.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[REPLICATOR RECEIVER] has started.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:42 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:42.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:42 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:98 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:98.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:98 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:42 to Reader_2.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:98 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:98 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:98.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:98 at 7:6:21 to db.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:37 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:37.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:37 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:78 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:78.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:78 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:37 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:78 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:78 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:78.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:78 at 7:6:25 to db.
+WARNING:root:[WRITER] Writer 0 successfully closed.
+INFO:root:[WRITER] Successfully started a 1. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_SINGLENOE:18 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SINGLENOE:18.
+INFO:root:[REPLICATOR SENDER] send CODE_SINGLENOE:18 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:26 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:26.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:26 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SINGLENOE:18 to Reader_3.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:26 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:26 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:26.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:26 at 7:6:30 to db.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:23 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:23.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:23 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:89 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:89.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:89 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:23 to Reader_4.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:89 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:89 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:89.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:89 at 7:6:34 to db.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:48 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:48.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:48 to Replicator Receiver.
+WARNING:root:[WRITER] Writer 5408 successfully closed.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:48 to Reader_2.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[WRITTER] Successfully connected to ReplicatorSender
+WARNING:root:[WRITER] FAILED TO CONNECT. REPLICATOR SENDER IS DOWN.
+messageINFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[READER_1] Started a server on 127.0.0.1:8881.
+INFO:root:[REPLICATOR RECEIVER] has started.
+INFO:root:[REPLICATOR SENDER] has started.
+INFO:root:[REPLICATOR SENDER] Started a server on 127.0.0.1:12345.
+INFO:root:[WRITER] Successfully started a 0. writer.
+INFO:root:[WRITTER] Successfully connected to ReplicatorSender
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:85 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:85.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:85 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:85 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:85 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:85.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:85 at 7:15:39 to db.
+INFO:root:[WRITER] Writer sent a CODE_DIGITAL:83 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_DIGITAL:83.
+INFO:root:[REPLICATOR SENDER] send CODE_DIGITAL:83 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_DIGITAL:83 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_DIGITAL:83 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_DIGITAL:83.
+INFO:root:[READER] has successfully connected to db.
+INFO:root:[READER] wrote CODE_DIGITAL:83 at 7:15:41 to db.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:39 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:39.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:39 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:61 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:61.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:39 to Reader_3.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:61 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:56 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:56.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:56 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:61 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_CONSUMER:99 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CONSUMER:99.
+INFO:root:[REPLICATOR SENDER] send CODE_CONSUMER:99 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:56 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_SOURCE:65 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_SOURCE:65.
+INFO:root:[REPLICATOR SENDER] send CODE_SOURCE:65 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CONSUMER:99 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:59 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:59.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:59 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_SOURCE:65 to Reader_4.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:100 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:100.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:100 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:59 to Reader_2.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:100 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:100 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:100.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:100.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:13 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:13.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:13 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:13 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:13 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:13.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:13.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:5 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:5.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:5 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:5 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:5 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:5.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:5.
+INFO:root:[WRITER] Writer sent a CODE_CUSTOM:52 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_CUSTOM:52.
+INFO:root:[REPLICATOR SENDER] send CODE_CUSTOM:52 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:6 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:6.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:6 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_CUSTOM:52 to Reader_2.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:6 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:6 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:6.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:6.
+INFO:root:[WRITER] Writer sent a CODE_ANALOG:49 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_ANALOG:49.
+INFO:root:[REPLICATOR SENDER] send CODE_ANALOG:49 to Replicator Receiver.
+INFO:root:[REPLICATOR RECEIVER] send CODE_ANALOG:49 to READER_1.
+INFO:root:[REPLICATOR RECEIVER] sent CODE_ANALOG:49 to Reader_1.
+INFO:root:[READER_1] Received a message from: CODE_ANALOG:49.
+INFO:root:[READER] has successfully connected to db.
+WARNING:root:[READER] deadband exception for CODE_ANALOG:49.
+INFO:root:[WRITER] Writer sent a CODE_LIMITSET:29 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_LIMITSET:29.
+INFO:root:[REPLICATOR SENDER] send CODE_LIMITSET:29 to Replicator Receiver.
+INFO:root:[WRITER] Writer sent a CODE_MULTIPLENODE:8 to ReplicatorSender.
+INFO:root:[REPLICATOR SENDER] Received a message from: CODE_MULTIPLENODE:8.
+INFO:root:[REPLICATOR SENDER] send CODE_MULTIPLENODE:8 to Replicator Receiver.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_LIMITSET:29 to Reader_2.
+WARNING:root:[WRITER] Writer 0 successfully closed.
+ERROR:root:[REPLICATOR SENDER] FAILED TO CONNECT. REPLICATOR RECEIVER IS DOWN.
+ERROR:root:[REPLICATOR RECEIVER] failed sent CODE_MULTIPLENODE:8 to Reader_3.

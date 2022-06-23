@@ -11,7 +11,7 @@ class READER_RECEIVE:
         self.instance = instance;
 
         logging_info = (f"INFO:root:[READER_{str(self.instance)}] Started a server on {self.host}:{self.port}.\n");
-        LOG(logging_info);
+        LOG(logging_info, "127.0.0.1", 9999);
 
         print(f"Started a server on {self.host}:{self.port}.\n");
 
@@ -36,7 +36,7 @@ class READER_RECEIVE:
                     pass;
 
                     logging_info = (f"INFO:root:[READER_{str(self.instance)}] Received a message from: {message}.\n");
-                    LOG(logging_info);
+                    LOG(logging_info, "127.0.0.1", 9999);
                     print(f"Message: {message}");
                     buffer.append(message);
             except:

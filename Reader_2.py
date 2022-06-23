@@ -7,7 +7,7 @@ import threading;
 
 
 if __name__ == "__main__":
-    LOG("INFO:root:[REPLICATOR SENDER] has started.\n");
+    LOG("INFO:root:[REPLICATOR SENDER] has started.\n", "127.0.0.1", 9999);
 
     buffer = [];
 

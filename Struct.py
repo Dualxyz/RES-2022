@@ -25,7 +25,7 @@ class Collection_Description:
         elif(code == "CODE_CONSUMER" or code == "CODE_SOURCE"):
             self.dataset = "DATASET4";
         else:
-            self.dataset = "ERROR";
+            raise TypeError("Dataset doesn't exist");
 
 
 class Historical_Collection:
@@ -97,18 +97,3 @@ if __name__ == "__main__":
     deltaCD = DeltaCD(packets);
     print("wat " + packet.dataset);
     print(f"Deltacd: {deltaCD.lista_add[0].hc.Receiver_Property.code}");
-
-    # if(packet.dataset == "DATASET1"):
-    #     print(f"DATASET1. CODE: {packet.hc.Receiver_Property.code}, VALUE: {packet.hc.Receiver_Property.value}");
-    #     #LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {packet.hc.Receiver_Property.code}:{packet.hc.Receiver_Property.value} to Reader_1.\n");
-    # elif(packet.dataset == "DATASET2"):
-    #     print(f"DATASET2. CODE: {packet.hc.Receiver_Property.code}, VALUE: {packet.hc.Receiver_Property.value}");
-    #     #LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {packet.hc.Receiver_Property.code}:{packet.hc.Receiver_Property.value} to Reader_2.\n");
-    # elif(packet.dataset == "DATASET3"):
-    #     print(f"DATASET3. CODE: {packet.hc.Receiver_Property.code}, VALUE: {packet.hc.Receiver_Property.value}");
-    #     #LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {packet.hc.Receiver_Property.code}:{packet.hc.Receiver_Property.value} to Reader_3.\n");
-    # elif(packet.dataset == "DATASET4"):
-    #     print(f"DATASET4. CODE: {packet.hc.Receiver_Property.code}, VALUE: {packet.hc.Receiver_Property.value}");
-    #     #LOG(f"INFO:root:[REPLICATOR RECEIVER] sent {packet.hc.Receiver_Property.code}:{packet.hc.Receiver_Property.value} to Reader_4.\n");
-    # else:
-    #     print("Error...");

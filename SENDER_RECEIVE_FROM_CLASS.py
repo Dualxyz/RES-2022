@@ -12,7 +12,7 @@ class REPLICATOR_RECEIVE_FROM:
         self.buffer = buffer;
 
         logging_info = (f"INFO:root:[REPLICATOR SENDER] Started a server on {self.host}:{self.port}.\n");
-        LOG(logging_info);
+        LOG(logging_info, "127.0.0.1", 9999);
 
         print(f"Started a server on {self.host}:{self.port}.\n");
 
@@ -41,7 +41,7 @@ class REPLICATOR_RECEIVE_FROM:
 
                     print(f"Message: {message}");
                     logging_info = (f"INFO:root:[REPLICATOR SENDER] Received a message from: {message}.\n");
-                    LOG(logging_info);
+                    LOG(logging_info, "127.0.0.1", 9999);
                     buffer.append(message);
             except:
                 break;
