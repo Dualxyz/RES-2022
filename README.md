@@ -7,13 +7,13 @@ Writer.py se koristi kao vrsta meni-a gde korisnik odabirom jedne od tri opcije 
 Ako izabere opciju jedan (1.) uz pomoc WRITER_CLASS.py će se kreirati novi writer. Ako se izabere opcija dva(2.) unosenjem odredjene istance cemo unistiti odredjen writer koja pripada toj instanci. Odabirom trece opcije(3.) izlazimo iz menija gde se automatiski sve instance writera unistavaju.
  ![](https://raw.githubusercontent.com/Dualxyz/RES-2022/main/slike/slika2.png?token=GHSAT0AAAAAABV24FAI7RDGVZML2QTSSTBWYVTUOLQ)
   ##### 1.2WRITER_CLASS.py
-  Sluzi za kreiranje writera-a koji ce na svakih dve sekunde slati odredjenu poruku. Poruka se sastoji iz dva dela, Koda I Vrednosti. Kod je jedna od 6 vrednosti koje se nalaze u** CODE_LIST.py.**
-![](https://raw.githubusercontent.com/Dualxyz/RES-2022/main/slike/slika3.png?token=GHSAT0AAAAAABV24FAIENI6PIIOAUGZDA5YYVTUPIA)
-   Vrednost je bilo koji broj od 1 do 100.Poruka se Kreira tako sto se nasumično uzme jedna od 6 vrednosti iz** CODE_LIST.py**  I nasumično izabere jedan celobrojan broj u intervalu od 1 do 100. Tako izgenerisana poruka se salje ** Replicatoru_senderu **– u.
+  Sluzi za kreiranje writera-a koji ce na svakih dve sekunde slati odredjenu poruku. Poruka se sastoji iz dva dela, Koda I Vrednosti. Kod je jedna od 6 vrednosti koje se nalaze u **CODE_LIST.py.**
+   Vrednost je bilo koji broj od 1 do 100.Poruka se Kreira tako sto se nasumično uzme jedna od 6 vrednosti iz **CODE_LIST.py**  I nasumično izabere jedan celobrojan broj u intervalu od 1 do 100. Tako izgenerisana poruka se salje ** Replicatoru_senderu **– u.
    ## 2.Replicator-Sender
    Replicator_sender je komponenta koja prima poruku od Writer-a I nakon toga je prosleđuje** Replicator_receiver**-u. Sastoji se iz tri stavke: ReplicatorSender.py,REPLICATOR_RECEIVE_FROM_CLASS.py,REPLICATOR_SEND_TO_CLASS.py.
    ##### 2.1REPLICATOR_RECEIVE_FROM_CLASS.py
    Klasa koja se koristi za uspostavljanje veze sa **Writer**-om I primanje poruke od istog. Ukoliko poruka koja je primljena nije prazna ona se ispisuje u konzolu I  stavlja u buffer.
+   
 ![](https://raw.githubusercontent.com/Dualxyz/RES-2022/main/slike/slika4.png?token=GHSAT0AAAAAABV24FAIBALAW6JOHEC77QFWYVTUP7Q)
    ##### 2.2REPLICATOR_SEND_TO_CLASS.py
    Klasa koja se koristi za uspostavljanje veze sa **Replicator-receiver**-om I slanje poruke istom. Poruka koja se salje se uzima sa buffera, koju je tu stavio instanca klase REPLICATOR_RECEIVE_FROM_CLASS.py, ukoliko sam buffer nije prazan. poruka se zatim salje **Replicator-receiver**-u I pop-uje se iz buffer-a.
@@ -56,9 +56,9 @@ Nakon odredjivanja DATASETA-a poruka se salje salje odredjenom tipu Readera u za
    ## 5.Logger
    SEND_TO_LOG ima klasu LOG koja se implementira nad svakoj klasi kako bi mogle slati poruke logeru o trenutnim aktivnostima.Logger.py je server koji prima poruke poslate putem send_to_log I upisuje ih file.
 ![](https://raw.githubusercontent.com/Dualxyz/RES-2022/main/slike/slika17.png?token=GHSAT0AAAAAABV24FAJWQRLRRV3YCPDXPSAYVTU7NA)
-##6.Pokretanje
+## 6.Pokretanje
 
-####Redosled otvaranja/pokretanja:
+#### Redosled otvaranja/pokretanja:
                 
 1. Logger
 2. Reader-i
